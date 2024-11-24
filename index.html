@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Being Scenius</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+    <!-- Header -->
+    <header class="bg-green-900 p-4 flex justify-between items-center text-white">
+        <h1 class="text-center font-semibold">Being Scenius</h1>
+        <button class="bg-white text-gray-800 font-semibold py-2 px-4 rounded-lg">Join</button>
+    </header>
+
+    <!-- Today's Startups News Section -->
+    <section class="p-3">
+        <h2 class="text-2xl font-semibold mb-4">Today's Startups News</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <!-- Large News Card -->
+            <div class="col-span-2">
+                <div class="bg-white rounded-lg overflow-hidden shadow-md">
+                    <img src="https://via.placeholder.com/500" alt="Main News Image" class="w-full">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold">HEADLINE</h3>
+                        <p>Some descriptive text for the main headline news.</p>
+                        <p class="text-gray-500 text-sm">source | date</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Smaller News Cards List -->
+            <div>
+                <div id="news-list" class="space-y-4">
+                    <!-- News items will be injected here by JavaScript -->
+                </div>
+                <button class="bg-green-900 text-white font-semibold py-2 px-4 rounded-lg mt-4 w-full">Load More</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Subscription -->
+    <section class="m-10 rounded-lg bg-green-900 text-white p-4 shadow-xl ring-1 ring-slate-900/5 flex items-center justify-between">
+        <p class="text-center font-semibold">Your startup scoop, delivered as a newsletter from Sriram Selvan</p>
+        <button class="bg-white text-gray-800 font-semibold
+         py-2 px-4 rounded-lg">Subscribe</button>
+    </section>
+
+    <!-- Latest Podcast Section -->
+    <section class="p-4">
+        <h2 class="text-2xl font-semibold mb-4">Latest Podcast</h2>
+        <div class="flex flex-col md:flex-row bg-white rounded-lg overflow-hidden shadow-md">
+            <img src="https://via.placeholder.com/500" alt="Podcast Image" class="w-full md:w-1/2">
+        </div>
+    </section>
+
+    <section class="m-10 rounded-lg bg-green-900 px-6 py-8 shadow-xl ring-1 ring-slate-900/5 flex flex-col items-center">
+        <p class="text-center text-white font-semibold mb-4">Get Regular Updates on Podcasts, Events, Startup News & More!</p>
+        <button class="bg-white text-gray-800 font-semibold py-2 px-4 rounded-lg ">Join Now</button>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-green-900 text-white p-4 flex flex-col md:flex-row justify-between items-center">
+        <div class="text-center md:text-left font-semibold">
+            <p>Being Scenius With Sriram Selvan</p>
+            <div class="flex space-x-2 mt-2">
+                <a href="https://www.youtube.com/@beingscenius" class="text-white">YouTube</a>
+                <a href="https://www.instagram.com/beingscenius/" class="text-white">Instagram</a>
+                <a href="https://open.spotify.com/show/3fK3Bk8RwMmTtAapSGXz1V" class="text-white">LinkedIn</a>
+                <a href="https://LinkedIn.openinapp.co/BeingScenius" class="text-white">Spotify</a>
+            </div>
+        </div>
+        <p class="text-center md:text-right mt-4 md:mt-0">Copyright © 2024 Being Scenius</p>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>

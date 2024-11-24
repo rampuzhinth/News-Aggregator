@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Headline 1",
+        "url": "https://example.com/news1",
+        "source": "Source 1",
+        "date": "2024-11-15"
+    },
+    {
+        "title": "Headline 2",
+        "url": "https://example.com/news2",
+        "source": "Source 2",
+        "date": "2024-11-15"
+    },
+    {
+        "title": "Headline 3",
+        "url": "https://example.com/news3",
+        "source": "Source 3",
+        "date": "2024-11-15"
+    },
+    {
+        "title": "Headline 4",
+        "url": "https://example.com/news4",
+        "source": "Source 4",
+        "date": "2024-11-15"
+    },
+    {
+        "title": "Headline 5",
+        "url": "https://example.com/news5",
+        "source": "Source 5",
+        "date": "2024-11-15"
+    }
+]
