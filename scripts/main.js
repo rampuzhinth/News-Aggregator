@@ -1,10 +1,9 @@
-// Fetch and display news items from JSON
 fetch('./data/links.json')
     .then(response => response.json())
     .then(data => {
         const newsList = document.getElementById('news-list');
         data.forEach((item, index) => {
-            if (index < 5) { // Only display the first 5 items initially
+            if (index < 5) { 
                 const newsItem = document.createElement('div');
                 newsItem.className = "flex items-center bg-white p-4 rounded-lg shadow-md";
                 newsItem.innerHTML = `
